@@ -1,0 +1,258 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.img-banner {
+    position: relative;
+}
+.img-banner p{
+    position: absolute;
+    top: 100px;
+    font-size: 47px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    left: 80px;
+    letter-spacing: 5px;
+}
+
+.img-banner a{
+    position: absolute;
+    top: 276px;
+    font-size: 21px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    left: 172px;
+}
+
+.mt10{margin-top: 10px; }
+
+.events
+{
+    margin-top: 30px;
+    padding: 0px;
+    position: relative; 
+}
+
+.event-wrap
+{
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+    border: 1px solid #f2f2f2;
+    padding: 6px;
+    border-radius: 5px;
+    height: 100%
+}
+
+.event-wrap:hover
+{
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.23);
+}
+
+.event-wrap img{
+    width: 100%;
+    height: 160px;
+}
+
+.event-wrap p{
+    font-weight: bold;
+    margin: 8px;
+}
+
+.event-wrap a{
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.event-wrap h2{
+    color:rgba(0, 0, 0, 0.6);
+    font-size: 20px;
+}
+
+.view-more{
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 14px;
+    color: #ffc107;
+}
+
+footer{
+    padding: 46px 0px;
+    color: white;
+}
+
+footer ul li{
+    list-style: none;
+}
+
+footer ul li a{
+    display: block;
+    padding: 4px 0px;
+    color: white;
+    text-decoration: none;
+}
+
+section{
+    padding-bottom: 80px; 
+}
+
+.pd-0{
+    padding-left: 0px !important;
+    padding-right: 0px !important; 
+}
+
+.mt-30{
+    margin-top: 30px;
+}
+
+.nav-item{
+    position: relative;
+}
+
+.search-event{
+    position: absolute;
+    z-index: 1;
+    width: 75em;
+    border-radius: 6px;
+    left: -50%;
+    top: 145%;
+}
+
+.search-event input[type="text"]{
+    display: inline-block;
+    width: 80%;
+    border-radius: 4px 0px 0px 4px;
+}
+
+.feedback-form {
+    width: 80%;
+    margin: 50px auto;
+    border: 1px solid #f2f2f2;
+    padding: 35px;
+}
+.feedback-form:hover {
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.23);
+}
+
+.feedback-form p {
+    color: #808080c7;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.event-lt-page img{
+    width: 500px;
+    border: 1px solid #f2f2f2;
+    border-radius: 21px;
+}
+.event-lt-page img:hover{
+    width: 515px;
+    border: 2px solid grey;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.23);
+    opacity: 0.7;
+}
+
+.event-lt-page a{
+    padding: 13px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 21px 0px;
+}
+
+.admin-login{
+    width: 50%;
+    margin: 50px auto;
+    border: 1px solid #f2f2f2;
+    padding: 35px;
+}
+
+.admin-login:hover {
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.23);
+}
+
+.side-bar{
+    border: 1px solid #f2f2f2;
+}
+
+.side-bar ul{
+    padding-left: 0px !important;
+}
+
+.side-bar li{
+    list-style: none;
+}
+
+.side-bar li a{
+    background: black;
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+    margin-bottom: 10px;
+}
+
+.dash-main{
+    border: 1px solid black;
+    border-radius: 40px;
+    display: inline-block;
+    box-shadow: 5px 5px 1px rgba(255, 0, 0, 0.38);
+    padding: 10px;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    padding-top: 47px;
+    background: #191e3cbf;
+    color: white;
+}
+
+.dash-event{
+    border: 1px solid red;
+    margin-bottom: 30px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background: black;
+    border-radius: 33px;
+}
+
+.Sidenav{
+        height: 100%;
+        width: 0px;
+        background: black;
+        top: 0;
+        position: fixed;
+        left: 0px;
+        z-index: 1;
+        padding-top: 60px;
+        transition: 0.7s;
+        overflow-x: hidden;
+}
+
+.Sidenav a{
+     padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.5s;
+}
+
+.Sidenav a:hover{
+    color: yellow;
+}
+
+.Sidenav .closebtn{
+    font-size: 38px;
+    position: absolute;
+    top: 0;
+    right: 25px;
+    margin-left: 56px;
+}
